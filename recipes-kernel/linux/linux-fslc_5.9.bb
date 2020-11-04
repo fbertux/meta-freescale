@@ -1,4 +1,4 @@
-# Copyright (C) 2012-2019 O.S. Systems Software LTDA.
+# Copyright (C) 2012-2020 O.S. Systems Software LTDA.
 # Released under the MIT license (see COPYING.MIT for the terms)
 #
 # SPDX-License-Identifier: MIT
@@ -12,16 +12,16 @@ upstreaming."
 
 include linux-fslc.inc
 
-LIC_FILES_CHKSUM = "file://COPYING;md5=bbea815ee2795b2f4230826c0c6b8814"
+LIC_FILES_CHKSUM = "file://COPYING;md5=6bc538ed5bd9a7fc9398086aedcd7e46"
 
 # PV is defined in the base in linux-imx.inc file and uses the LINUX_VERSION definition
 # required by kernel-yocto.bbclass.
 #
 # LINUX_VERSION define should match to the kernel version referenced by SRC_URI and
 # should be updated once patchlevel is merged.
-LINUX_VERSION = "5.4.74"
+LINUX_VERSION = "5.9.1"
 
-SRCBRANCH = "5.4.x+fslc"
-SRCREV = "edb45473faf9e9f1762991a620785fb21bc9517b"
+SRCBRANCH = "5.9.x+fslc"
+SRCREV = "a19dbe3c0d626083501d76afb51922b98c88206d"
 
 COMPATIBLE_MACHINE = "(mxs|mx5|mx6|vf|use-mainline-bsp)"
